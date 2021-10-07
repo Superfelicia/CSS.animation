@@ -1,0 +1,140 @@
+html {
+    width: 100%;
+    background-color: black;
+}
+
+/*card*/
+
+.section-one {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 1669px;
+    height: 450px;
+    z-index: -1;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    width: 859px;
+    height: 438px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+/*header*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Creepster', cursive;
+    font-size: 80px;
+    color: #FFFFFF;
+    animation: imgZoom 3.5s ease infinite;
+}
+
+@keyframes imgZoom {
+    from 
+    {
+        transform: scale(1) rotate(0deg);
+    } 
+    
+    to {
+        transform: scale(1.1) rotate(15deg);
+    }
+}
+
+@keyframes imgZoom {
+    from
+    {
+        transform: scale(1.1) rotate(15deg);
+    }
+
+    to {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+h1:hover {
+    color: #74B72E;
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+    transition-delay: 0.3s;
+}
+
+
+/*section*/
+
+.invite-box {
+    /*position: relative;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column; 
+    line-height: 0.5px;
+    text-align: center;
+    width: 180px;
+    height: 250px;
+    margin-left: 190px;
+}
+
+h2, h3, h4, .p1, .p2 {
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+h4, .p1 {
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Rye', cursive;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.p2 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.rsvp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.5px;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 155px;
+}
+
+.rsvp, .info {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.rsvp:hover, .info:hover {
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+    transition-delay: 0.3s;
+}
+
+.btn {
+
+}
