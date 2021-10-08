@@ -41,8 +41,9 @@ html {
 
 /*header*/
 header {
-    position: relative;
+    /*position: relative;*/
     overflow: hidden;
+    width: 1669px;
 }
 
 h1 {
